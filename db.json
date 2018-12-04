@@ -1,0 +1,7 @@
+{
+  "articles": [
+    { "id": 1, "author": "xDelph", "content": "content 1" },
+    { "id": 2, "author": "xDelph", "content": "content 2" },
+    { "id": 3, "author": "xDelph", "content": "content 3" }
+  ]
+}
