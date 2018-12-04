@@ -2,11 +2,11 @@ module Update exposing (init, update)
 
 import Browser
 import Browser.Navigation as Nav
-import Data.Network exposing (RemoteData(..))
 import Fetch.Article exposing (fetchArticle, fetchArticles)
 import Fetch.Update as Fetch exposing (update)
 import Model exposing (Model)
 import Msg exposing (..)
+import Network exposing (RemoteData(..))
 import Routes exposing (..)
 import Url
 

@@ -2,8 +2,8 @@ module Model exposing (Model)
 
 import Browser.Navigation as Nav
 import Data.Article exposing (Article)
-import Data.Network exposing (RemoteData(..))
 import Msg exposing (Msg(..))
+import Network exposing (RemoteData(..))
 import Routes exposing (..)
 import Url
 

@@ -1,9 +1,9 @@
 module Fetch.Update exposing (update)
 
-import Data.Network exposing (RemoteData(..))
 import Fetch.Msg exposing (Msg(..))
 import Http
 import Model exposing (Model)
+import Network exposing (RemoteData(..))
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )

@@ -1,10 +1,10 @@
 module Views.Articles exposing (view)
 
 import Data.Article exposing (Article)
-import Data.Network exposing (RemoteData(..))
 import Html exposing (..)
 import Html.Attributes exposing (href)
 import Msg exposing (Msg(..))
+import Network exposing (RemoteData(..))
 
 
 view : RemoteData (List Article) -> Html.Html Msg

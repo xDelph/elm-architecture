@@ -1,4 +1,4 @@
-module Data.Network exposing (RemoteData(..))
+module Network exposing (RemoteData(..))
 
 import Html exposing (..)
 import Http
